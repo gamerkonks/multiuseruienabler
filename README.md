@@ -3,8 +3,9 @@ A Magisk module that tries to enable Multi-User UI (The settings page that allow
 
 ## Disclaimer
 
-While this module has been tested to function properly on my personal device:
+While this module has been tested to function properly on these devices:
 * Samsung Galaxy A20s (One UI Core 3.1, Android 11)
+* [Samsung Galaxy S8 (One UI 1, Android 9)](https://github.com/InsertX2k/multiuseruienabler/issues/1)
 
 **I still strongly recommend that you take a backup before installing any magisk module, as there is no 100% guarantee that it won't bootloop your device, different ROMs may behave differentially when `build.prop` is modified**
 
