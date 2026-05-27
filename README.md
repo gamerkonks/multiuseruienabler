@@ -1,11 +1,11 @@
 # multiuseruienabler
-A Magisk module that tries to enable Multi-User UI (The settings page that allows you to modify and add users, available in Settings>Accounts and backup>Users) by systemlessly adding a few lines to the `build.prop` file.
+A Magisk module that tries to enable Multi-User UI by systemlessly adding a few lines to the `build.prop` file.
 
 ## Disclaimer
 
 While this module has been tested to function properly on these devices:
-* Samsung Galaxy A20s (One UI Core 3.1, Android 11)
-* [Samsung Galaxy S8 (One UI 1, Android 9)](https://github.com/InsertX2k/multiuseruienabler/issues/1)
+* Google Pixel 9 Pro XL (Android 16)
+* Google Pixel 10 Pro XL (Android 16)
 
 **I still strongly recommend that you take a backup before installing any magisk module, as there is no 100% guarantee that it won't bootloop your device, different ROMs may behave differentially when `build.prop` is modified**
 
@@ -26,7 +26,7 @@ While this module has been tested to function properly on these devices:
 
 ## Limitations
 
-* While this module enables the multi-user UI that allows you to create or make changes to existing users on the system, it limits the number of users the system can have to **5** (***this number includes the user 0***)
+* While this module enables the multi-user UI that allows you to create or make changes to existing users on the system, it limits the number of users the system can have to **10** (***this number includes the user 0***)
 
 ## Installation
 
