@@ -50,6 +50,6 @@ When upgrading, please remove the existing module and reinstall the latest relea
 This Magisk module is supposed to add the following line(s) to your system's `build.prop` file:
 
 ```
-fw.max_users=5
+fw.max_users=10
 fw.show_multiuserui=1
 ```
